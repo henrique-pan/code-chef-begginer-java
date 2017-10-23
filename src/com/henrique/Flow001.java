@@ -2,19 +2,19 @@ package com.henrique;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 public class Flow001 {
 
-	//private static final String fileName = "files/flow001.txt";
+	private static final String fileName = "files/flow001.txt";
 	
 	public static void main(String[] args) throws IOException {		
 		Printer printer = new Printer();
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		//BufferedReader br = new BufferedReader(new FileReader(fileName));
+		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new FileReader(fileName));
 		
 		int testCases = Integer.parseInt(br.readLine());
 		while (testCases != 0) {
