@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 
 public class BrLadder {	
 
-	//private static final String fileName = "files/brladder.txt";
+	//private static final String fileName = "files/brladder.txt"
 	
 	public static void main(String arg[]) throws FileNotFoundException {
 		NumberIO numberIO = new NumberIO(System.in);
