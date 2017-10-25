@@ -1,19 +1,18 @@
 package com.henrique;
 
 import java.io.BufferedInputStream;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-public class BrLadder {	
+public class SumTrian {	
 
-	private static final String fileName = "files/sumtrian.txt";
+	//private static final String fileName = "files/brladder.txt"
 	
 	public static void main(String arg[]) throws FileNotFoundException {
-		//NumberIO numberIO = new NumberIO(System.in);
-		NumberIO numberIO = new NumberIO(new FileInputStream(fileName));
+		NumberIO numberIO = new NumberIO(System.in);
+		//NumberIO numberIO = new NumberIO(new FileInputStream(fileName));
 		
 		PrintWriter pw = new PrintWriter(System.out);
 		
